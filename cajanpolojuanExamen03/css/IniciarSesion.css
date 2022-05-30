@@ -1,0 +1,109 @@
+@media(min-width: 1001px){
+body{border: 0px;
+    background-color: rgb(246, 240, 232);}
+.Contenedor{padding-left:10% ;
+    padding-right: 10%;}
+ header{
+        background-color: rgb(40, 39, 39);
+        height: 100px;
+        text-align: center;
+        color: white;
+    }
+    #tit{font-family: Arial;
+        font-size: larger;
+        padding-top: 10px;
+        }
+nav{
+        background-color: rgb(63, 61, 61);
+        width: 82%;
+        color: white;   
+    }
+ section{
+        background-color: rgb(228, 214, 214);
+        width: 18%;
+        text-align: center;
+    }
+footer{
+        background-color:rgb(179, 176, 163);
+        height: 130px;
+        clear: left;
+        color: black;  
+        display: flex; 
+    }
+ nav,section{
+        float: left;
+        height: 660px;
+    }
+#perfil{
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+    }
+ .Perfil{  
+        float: left;
+        }
+#perfilF{
+            width: 60px;
+            height: 60px;
+            padding: 25px;
+        padding-right: 0%;
+        float: left;
+    }
+ .Titulo{
+        padding-right: 750px; ;
+    }
+
+    #Subtitulo{
+        font-family: Arial;
+        font-size: small;
+     }
+    
+    #Menu{text-align: left;
+    }
+
+.MenuL,.EnlacesL{
+        padding: 5%;
+    }
+    #EnlacesInteres{text-align: left;}
+    
+.opcion{padding-left: 160px; 
+        text-decoration: none; 
+        font-family: Arial;  
+        color: black;}
+    
+ .OpcionesMenu{background-color: blanchedalmond;}
+.InfoContacto,.perfilF,.SiguenosEn,.EnlacesInteres2,.Menu2{
+       padding-left: 60px;}
+ .Sec{
+        padding: 30px;
+ }
+.Registro{float: left;
+    padding-left: 200px;
+    padding-top: 80px;
+ }
+
+.Lista{
+        padding: 200px;
+        }
+    
+.Contactos{display: flex;}
+    .li{
+        text-decoration: none;
+        font-family: Arial;
+        color: #fff;
+    }
+    .buton{
+        padding: 35px;
+    }
+.IniciarSesion{
+    background-color:grey;
+    padding-left: 30px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 250px;
+}
+}

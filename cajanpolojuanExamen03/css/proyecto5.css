@@ -1,0 +1,21 @@
+@media(min-width: 1001px){
+#caja1{background-color: red;}
+#titulo{
+    text-align: center;
+    }
+    
+#opciones{
+        text-align: center;
+        }
+#caja2{
+    width: 600px;
+    height: 250px;
+float: right;
+    }
+#caja3{background-color: white;}
+
+#caja4{
+background-color: yellow;
+float: right;
+}
+}

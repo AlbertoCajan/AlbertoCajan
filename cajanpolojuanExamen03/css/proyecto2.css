@@ -1,0 +1,6 @@
+@media(min-width: 1001px){
+body{background-color: beige;}
+.cuerpo{padding-left: 450px;
+padding-top: 200px;}
+#titulo{padding-left: 220px;}
+}

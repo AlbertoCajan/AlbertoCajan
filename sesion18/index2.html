@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Jquery</title>
+</head>
+<body>
+ 
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <div id="cont1" class="bloque"> Menu
+        <ol>
+            <LI>Menu 01</LI>
+            <LI>Menu 02</LI>
+            <LI>Menu 03</LI>
+            <LI>Menu 04</LI>
+        </ol>
+    </div><br>
+    <button id="c1b">Ocultar / Monstrar Menu</button><br>
+
+    <script>
+        //ocultar/mostrar
+        $("#c1b").click(function() {
+            $("#cont1").toggle(1500);
+        }, function() {
+            $("#cont1").toggle(1500);
+        });
+    </script>
+</body>
+
+
+</html>

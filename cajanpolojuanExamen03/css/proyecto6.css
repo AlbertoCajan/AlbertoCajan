@@ -1,0 +1,229 @@
+.grid{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 65px 35px  250px 100px;
+    grid-template-areas: 
+     "my-header"
+     "my-nav"
+     "my-section" 
+     "my-footer";
+}
+
+
+
+h1{text-align: center;
+font-size: small;}
+h3{font-size: x-large;
+text-align: center;}
+h2{font-size: medium;}
+.logo{
+    width: 80x;
+    height: 65px;
+    
+}
+.caja0{
+    background-color: red;
+}
+
+.Caja2{
+    float: right;
+}
+
+.perfil{
+    width: 80px;
+    height: 65px;
+}
+.imagen{
+    width: 200px;
+    height: 150px;
+}
+h2{
+    text-align: center;
+}
+header{
+    
+    grid-area: my-header;
+
+}
+
+nav{
+    height: 4px;
+    grid-area: my-nav;
+}
+.Categorias{
+    height: 30px;
+    background-color: rgb(218, 218, 203);
+   
+}
+.opcion{
+    padding-left: 19px; 
+    text-decoration: none; 
+    font-family: Arial;  
+    color: black;
+
+}
+.Productos{
+    
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 5%;
+    text-align: center;
+    width: 250px;
+}
+footer{
+    grid-area: my-footer;
+    padding-top: 3250px;
+   
+}
+
+section{
+    padding: 0%;
+    
+}
+body{ background-color: antiquewhite;}
+.buscar{
+    width: 60px;
+    height: 40px;
+    padding: 10px;
+}
+.Busqueda{float:right;
+padding-right: 200px;}
+
+.Miperfil{float: right;}
+
+#Buscar{float: right;
+padding-right: 150px ;}
+
+.rev{
+    font-family: Arial;
+    color: #0cb7f2;
+}
+.AgregarCarrito{
+    font-family: Arial;
+    color: #f28b0cdd;
+   
+}
+.opcionesProducto{
+    padding: 10px;
+}
+.rev,.AgregarCarrito{
+    padding: 10px;
+}
+@media(min-width: 1001px){
+.grid{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 65px 35px  250px 100px;
+    grid-template-areas: 
+     "my-header"
+     "my-nav"
+     "my-section" 
+     "my-footer";
+}
+
+
+
+h1{text-align: center;
+font-size: small;}
+h3{font-size: x-large;
+text-align: center;}
+h2{font-size: medium;}
+.logo{
+    width: 80x;
+    height: 65px;
+    
+}
+.caja0{
+    background-color: red;
+}
+.caja1,.caja3{
+    display: flex;
+    padding: 0px;
+}
+.Caja2{
+    float: right;
+}
+
+.perfil{
+    width: 80px;
+    height: 65px;
+}
+.imagen{
+    width: 200px;
+    height: 150px;
+}
+h2{
+    text-align: center;
+}
+header{
+    
+    grid-area: my-header;
+
+}
+
+nav{
+    height: 4px;
+    grid-area: my-nav;
+}
+.Categorias{
+    height: 30px;
+    background-color: rgb(218, 218, 203);
+   
+}
+.opcion{
+    padding-left: 73px; 
+    text-decoration: none; 
+    font-family: Arial;  
+    color: black;
+
+}
+.Productos{
+    
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 5%;
+    text-align: center;
+    width: 250px;
+}
+footer{
+    grid-area: my-footer;
+    padding-top: 650px;
+   
+}
+
+section{
+    padding: 0%;
+    
+}
+body{ background-color: antiquewhite;}
+.buscar{
+    width: 60px;
+    height: 40px;
+    padding: 10px;
+}
+.Busqueda{float:right;
+padding-right: 200px;}
+
+.Miperfil{float: right;}
+
+#Buscar{float: right;
+padding-right: 300px ;}
+
+.rev{
+    font-family: Arial;
+    color: #0cb7f2;
+}
+.AgregarCarrito{
+    font-family: Arial;
+    color: #f28b0cdd;
+   
+}
+.opcionesProducto{
+    padding: 10px;
+}
+.rev,.AgregarCarrito{
+    padding: 10px;
+}
+}
