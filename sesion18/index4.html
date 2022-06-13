@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="js/index4.js">
+    </head>
+    <body onload="actualizarDatos()">
+        <div id="Contenedor">
+            <header>
+                <h3>MI AGENDA DE DATOS</h3>
+                <hr>
+            </header>
+            <form>
+                <span>Nombre:</span>
+                <input type="text" id="nombre"><br>
+                <span>Num Celular:</span>
+                <input type="text" id="movil">
+            </form>
+            <hr>
+            <div>
+                <button type="button" onclick="guardarDato()">Guardar</button>
+                <button type="button" onclick="recuperarDato()">Recuperar</button>
+                <button type="button" onclick="eliminarDato()">Elmnar</button>
+                <button type="button" onclick="eliminarTodo()">Eliminar Todos</button>
+            </div>
+            <hr>
+            <span class="titu">Nombre</span> <span class="titu">Celular</span> <br>
+            <ul id="contactos"></ul>
+        </div>
+        <script type="text/javascript" src="js/index4.js"></script>
+    </body>
+</html>
